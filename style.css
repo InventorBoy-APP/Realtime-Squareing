@@ -1,0 +1,53 @@
+body{
+    text-align:center;
+    background-color:seagreen;
+}
+
+
+.copy_right_footer{
+ font-weight:bold;
+ text-decoration-line: underline;
+ font-family: 'M PLUS 1', sans-serif;
+ color:springgreen;
+ background-color:steelblue;
+ box-shadow: 5px 5px 5px grey;
+ bottom:0;
+ position:fixed;
+ width:100%;
+}
+
+
+.header{
+    color:springgreen;
+    font-family: 'M PLUS 1', sans-serif;
+    box-shadow: 5px 5px 35px teal;
+    font-weight:bolder;
+    width:100%;
+    text-decoration-line:underline;
+    margin:0px;
+    background-color:tomato;
+}
+
+
+.note{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:840;
+    font-size:18px;
+    text-decoration-line: underline;
+    color:navy;
+}
+
+
+canvas{
+ box-shadow: 5px 5px 35px navy;
+ animation-name: borderlight;
+ animation-iteration-count: infinite;
+animation-duration: 4s;
+ border-radius:40px;
+}
+
+
+@keyframes borderlight{
+    from{ box-shadow: 5px 5px 35px navy;}
+    to{ box-shadow: 5px 5px 35px springgreen;}
+}
